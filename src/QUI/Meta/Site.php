@@ -30,6 +30,7 @@ class Site
         $robots = $Site->getAttribute('quiqqer.meta.site.robots');
         $description = $Site->getAttribute('quiqqer.meta.site.description');
         $canonical = $Site->getAttribute('quiqqer.meta.site.canonical');
+        $publisher = $Site->getAttribute('quiqqer.meta.site.publisher');
 
         // meta description
         if (!$description) {
@@ -60,7 +61,14 @@ class Site
             $robots = $Project->getConfig('meta.project.robots');
         }
 
-        $publisher = $Project->getConfig('meta.project.publisher');
+        if (!$publisher) {
+            $publisher = $Project->getConfig('meta.project.publisher');
+        }
+
+        if (!$publisher) {
+            $publisher = $Project->getConfig('publisher');
+        }
+
         $copyright = $Project->getConfig('meta.project.copyright');
         $revisit = $Project->getConfig('meta.project.revisit');
 
