@@ -36,6 +36,17 @@
             <de><![CDATA[Meta - Herausgeber (Publisher)]]></de>
             <en><![CDATA[Meta publisher]]></en>
         </locale>
+        <locale name="meta.project.settings.publisher.description">
+            <de><![CDATA[
+                Standard-Herausgeber für die Meta-Daten des Projekts. Wenn auf einer Seite ein eigener Publisher
+                gesetzt ist, wird der Seitenwert verwendet. Wenn dieses Feld leer ist, wird der allgemeine
+                Projekt-Publisher verwendet.
+            ]]></de>
+            <en><![CDATA[
+                Default publisher for the project's metadata. If a page has its own publisher, the page value is used.
+                If this field is empty, the general project publisher is used.
+            ]]></en>
+        </locale>
         <locale name="meta.project.settings.copyright">
             <de><![CDATA[Meta - Copyright]]></de>
             <en><![CDATA[Meta copyright]]></en>
@@ -63,6 +74,19 @@
         <locale name="quiqqer.meta.site.title">
             <de><![CDATA[SEO Seitentitel]]></de>
             <en><![CDATA[SEO site title]]></en>
+        </locale>
+        <locale name="quiqqer.meta.site.publisher">
+            <de><![CDATA[Meta Herausgeber (Publisher)]]></de>
+            <en><![CDATA[Meta publisher]]></en>
+        </locale>
+        <locale name="quiqqer.meta.site.publisher.description">
+            <de><![CDATA[
+                Optionaler Herausgeber für diese Seite. Wenn leer, wird der Publisher aus den Projekteinstellungen
+                verwendet.
+            ]]></de>
+            <en><![CDATA[
+                Optional publisher for this page. If empty, the publisher from the project settings is used.
+            ]]></en>
         </locale>
         <locale name="quiqqer.meta.site.robots">
             <de><![CDATA[Anweisungen für Suchmaschinen]]></de>

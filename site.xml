@@ -6,6 +6,7 @@
         <attribute>quiqqer.meta.site.title</attribute>
         <attribute>quiqqer.meta.site.description</attribute>
         <attribute>quiqqer.meta.site.canonical</attribute>
+        <attribute>quiqqer.meta.site.publisher</attribute>
     </attributes>
 
     <!-- global site settings -->
@@ -49,6 +50,15 @@
                             <text>
                                 <locale group="quiqqer/meta" var="quiqqer.meta.site.title"/>
                             </text>
+                        </input>
+
+                        <input conf="quiqqer.meta.site.publisher">
+                            <text>
+                                <locale group="quiqqer/meta" var="quiqqer.meta.site.publisher"/>
+                            </text>
+                            <description>
+                                <locale group="quiqqer/meta" var="quiqqer.meta.site.publisher.description"/>
+                            </description>
                         </input>
 
                         <textarea conf="quiqqer.meta.site.description"
